@@ -1,0 +1,23 @@
+tool used for simulating MANET is 
+OMNET++
+
+OMNeT++ is an object-oriented modular discrete event network simulator.An OMNeT++ model consists of hierarchically nested modules. The depth of module nesting is not limited,
+which allows the user to reflect the logical structure of the actual system in the model structure. Modules
+communicate through message passing. Messages can contain arbitrarily complex data structures. Modules
+can send messages either directly to their destination or along a predefined path, through gates and
+connections.
+
+NED language:
+The topology of a model is specified using the NED language. The NED language facilitates the modular
+description of a network. This means that a network description may consist of a number of component
+descriptions (channels, simple/compound module types). The channels, simple modules and compound
+modules of one network description can be reused in another network description.
+Files containing network descriptions generally have a .ned suffix. NED files can be loaded dynamically
+into simulation programs, or translated into C++ by the NED compiler and linked into the simulation
+executable.
+
+INI File:
+ Inital parameters for the network such as the mobility model for the network,playground size,routing protocol to be used
+transmitting range of the nodes can be specified in this file.These parameters remains constant throughout the simulation
+
+
